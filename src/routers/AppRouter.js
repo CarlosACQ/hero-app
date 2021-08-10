@@ -2,12 +2,11 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 import { LoginScreen } from '../components/login/LoginScreen';
-import { Navbar } from '../components/ui/NavBar';
+// import { Navbar } from '../components/ui/NavBar';
 import { DashboardRoutes } from './DashboardRoutes';
 
 export const AppRouter = () => {
